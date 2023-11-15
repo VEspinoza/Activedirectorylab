@@ -58,8 +58,40 @@ Confirm our DHCP service is working:  <br/>
 <img src="https://i.imgur.com/eFOFDDG.png" height="80%" width="80%" alt="VirtualBox Setup"/>
 <br />
 <br />
-Place holder heading:  <br/>
-<img src="https://i.imgur.com/" height="80%" width="80%" alt="VirtualBox Setup"/>
+We can then add in sample users with this script:  <br/>
+<img src="https://i.imgur.com/uoHWjWG.png" height="80%" width="80%" alt="VirtualBox Setup"/>
+<br/>
+<br/>
+Confirm users were added into Active Directory:  <br/>
+<img src="https://i.imgur.com/pGP8QD6.png" height="80%" width="80%" alt="VirtualBox Setup"/>
+<br />
+<br />
+I also set my own admin account:  <br/>
+<img src="https://i.imgur.com/BLOjvML.png" height="80%" width="80%" alt="VirtualBox Setup"/>
+<br />
+<br />
+Next we can start setting up our Windows 10 Client machine. <br/><br/>
+Set our NIC for the client to only connect to the internal network:  <br/>
+<img src="https://i.imgur.com/bHxpgWg.png" height="80%" width="80%" alt="VirtualBox Setup"/>
+<br />
+<br />
+After accessing the client with a local account we can set it to join the domain:  <br/>
+<img src="https://i.imgur.com/xO7CtMK.png" height="80%" width="80%" alt="VirtualBox Setup"/>
+<br />
+<br />
+And can confirm on our server that it sees our client:  <br/>
+<img src="https://i.imgur.com/osMXhvf.png" height="80%" width="80%" alt="VirtualBox Setup"/>
+<br />
+<br />
+After joining the domain and restarting our client we can log in with a domain account:  <br/>
+<img src="https://i.imgur.com/UtViEK1.png" height="80%" width="80%" alt="VirtualBox Setup"/>
+<br />
+<br />
+And confirm we are connected to the domain:  <br/>
+<img src="https://i.imgur.com/iIHDkx0.png" height="80%" width="80%" alt="VirtualBox Setup"/>
+<br />
+<br />
+And that is setting up a basic domain with Active Directory management.
 </p>
 
 <!--
